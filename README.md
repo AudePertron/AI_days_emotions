@@ -33,6 +33,8 @@ __N'oubliez pas de créer et d'activer un nouvel environnement de travail avant 
 Ouvrez votre terminal, et clonez ce dépôt GitHub:<br>
 `git clone https://github.com/AudePertron/AI_days_emotions`
 
+Dézipper le fichier `emotions.zip` directement dans le dossier data.
+
 Installez les requirements:<br>
 `cd AI_days_emotions`<br>
 `pip install -r requirements.txt`
