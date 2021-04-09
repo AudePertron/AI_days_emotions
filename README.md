@@ -9,7 +9,7 @@ Nous détecterons les émotions suivantes:
 
 L'opération se réalisera en deux temps:
 - Premièrement une détection des visages, pour cela nous utiliserons un modèle déjà existant (MTCNN)
-- Ensuite un modèle de détectionndes émotions que nous réaliserons ensemble.
+- Ensuite un modèle de détection des émotions que nous réaliserons ensemble.
 
 Pour entraîner un algorithme d'IA, il est nécessaire d'avoir à disposition une base de données labelisée. A savoir dans notre cas des photos de visage, avec une étiquette qui leur est associée (par exemple: photo1: colère, photo2: tristesse,.....)
 L'entraînement d'un modèle prend du temps, même un modèle simple comme le notre. Pour gagner du temps lors de cette journée, nous vous proposons d'utiliser le modèle que nous avons entraîné au préalable, même si nous vous guideront à travers toutes les étapes du code dans ce Notebook. Vous serez en mesure de l'entraîner de A à Z après les IA days, si vous le désirez.
@@ -25,20 +25,28 @@ A la fin du code, nous ouvrirons la webcam et vous pourrez essayer votre modèle
 
 ## Prérequis:
 Nous vous recommandons de créer un nouvel environnement de travail avant de débuter.
-Nous fournissons un fichier requirements.txt qui executera les installations nécessaires. Nous installerons Jupyter Notebook, mais si vous êtes déjà familiers avec Google Colab, vous pouvez faire tourner le code dessus.
+Nous fournissons un fichier requirements.txt qui executera les installations nécessaires. Nous installerons Jupyter Notebook en local, mais si vous êtes déjà familiers avec Google Colab, vous pouvez faire tourner le code dessus. <br>*(Seulement la partie 1, l'entrainement du modèle. La partie deux est à réaliser impérativement en local, du fait d'incompatibilités).*
 
 ## Installations
 __N'oubliez pas de créer et d'activer un nouvel environnement de travail avant de démarrer__
 
-Ouvrez votre terminal, et clonez ce dépôt GitHub:
-
+Ouvrez votre terminal, et clonez ce dépôt GitHub:<br>
 `git clone https://github.com/AudePertron/AI_days_emotions`
 
-installez les requirements:
-
-`cd AI_days_emotions`
-
+Installez les requirements:<br>
+`cd AI_days_emotions`<br>
 `pip install -r requirements.txt`
 
-Ouvrez le notebook: 
-`jupyter notebook`
+Ouvrez le notebook:<br>
+`jupyter notebook` <br>
+
+Sélectionnez (Fichier / ouvrir):<br>
+ `Tuto_Emotions_Part1`
+
+Suivez les instructions de la partie un.<br><br>
+A l'issue de celle-ci, vous pourrez de la même façon ouvrir le deuxième Notebook. <br>
+`jupyter notebook` <br>
+Sélectionnez (Fichier / ouvrir):<br>
+`Tuto_Emotions_Part2`
+
+Félicitations, vous venez d'entraîner votre premier modèle IA!
