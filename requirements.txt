@@ -1,0 +1,10 @@
+numpy
+opencv-python
+pickle
+scikit-learn
+matplotlib
+tensorflow
+keras 
+mtcnn
+mtcnn-opencv
+jupyter
