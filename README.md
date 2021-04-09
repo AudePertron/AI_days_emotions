@@ -9,7 +9,7 @@ Nous détecterons les émotions suivantes:
 
 L'opération se réalisera en deux temps:
 - Premièrement une détection des visages, pour cela nous utiliserons un modèle déjà existant (MTCNN)
-- Ensuite un modèle de détectionndes émotions que nous réaliserons ensemble.
+- Ensuite un modèle de reconnaissance des émotions que nous réaliserons ensemble.
 
 Pour entraîner un algorithme d'IA, il est nécessaire d'avoir à disposition une base de données labelisée. A savoir dans notre cas des photos de visage, avec une étiquette qui leur est associée (par exemple: photo1: colère, photo2: tristesse,.....)
 L'entraînement d'un modèle prend du temps, même un modèle simple comme le notre. Pour gagner du temps lors de cette journée, nous vous proposons d'utiliser le modèle que nous avons entraîné au préalable, même si nous vous guideront à travers toutes les étapes du code dans ce Notebook. Vous serez en mesure de l'entraîner de A à Z après les IA days, si vous le désirez.
