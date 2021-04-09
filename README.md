@@ -12,7 +12,18 @@ L'opération se réalisera en deux temps:
 - Ensuite un modèle de détectionndes émotions que nous réaliserons ensemble.
 
 Pour entraîner un algorithme d'IA, il est nécessaire d'avoir à disposition une base de données labelisée. A savoir dans notre cas des photos de visage, avec une étiquette qui leur est associée (par exemple: photo1: colère, photo2: tristesse,.....)
+L'entraînement d'un modèle prend du temps, même un modèle simple comme le notre. Pour gagner du temps lors de cette journée, nous vous proposons d'utiliser le modèle que nous avons entraîné au préalable, même si nous vous guideront à travers toutes les étapes du code dans ce Notebook. Vous serez en mesure de l'entraîner de A à Z après les IA days, si vous le désirez.
+
+![exemple photo](/images/demo.png)
 
 Il vous suffit de télécharger le contenu de ce dépôt GitHub, qui contient la base de données et le notebook Jupyter pour effectuer le travail. Ce notebook n'est pas rempli à 100%, mais des indications vous sont forunies pour compléter le code.
 
 La base de données contient 19211 images de 48*48 pixels en niveaux de gris.
+
+A la fin du code, nous ouvrirons la webcam et vous pourrez essayer votre modèle.
+![test webcam](/images/test.png)
+
+## Prérequis:
+Nous fournissons un fichier requirements.txt qui executera les installations nécessaires. Nous installerons Jupyter Notebook, mais si vous êtes déjà familiers avec Google Colab, vous pouvez faire tourner le code dessus.
+
+## Installations
