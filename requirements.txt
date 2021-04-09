@@ -1,6 +1,5 @@
 numpy
 opencv-python
-pickle
 scikit-learn
 matplotlib
 tensorflow
