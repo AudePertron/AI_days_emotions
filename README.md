@@ -29,6 +29,7 @@ Nous fournissons un fichier requirements.txt qui executera les installations né
 
 ## Installations
 __N'oubliez pas de créer et d'activer un nouvel environnement de travail avant de démarrer__
+
 Ouvrez votre terminal, et clonez ce dépôt GitHub:
 
 `git clone https://github.com/AudePertron/AI_days_emotions`
