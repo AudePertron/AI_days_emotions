@@ -24,6 +24,20 @@ A la fin du code, nous ouvrirons la webcam et vous pourrez essayer votre modèle
 ![test webcam](/images/test.png)
 
 ## Prérequis:
+Nous vous recommandons de créer un nouvel environnement de travail avant de débuter.
 Nous fournissons un fichier requirements.txt qui executera les installations nécessaires. Nous installerons Jupyter Notebook, mais si vous êtes déjà familiers avec Google Colab, vous pouvez faire tourner le code dessus.
 
 ## Installations
+__N'oubliez pas de créer et d'activer un nouvel environnement de travail avant de démarrer__
+Ouvrez votre terminal, et clonez ce dépôt GitHub:
+
+`git clone https://github.com/AudePertron/AI_days_emotions`
+
+installez les requirements:
+
+`cd AI_days_emotions`
+
+`pip install -r requirements.txt`
+
+Ouvrez le notebook: 
+`jupyter notebook`
