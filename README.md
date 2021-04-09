@@ -30,25 +30,25 @@ Nous fournissons un fichier requirements.txt qui executera les installations né
 ## Installations
 __N'oubliez pas de créer et d'activer un nouvel environnement de travail avant de démarrer__
 
-Ouvrez votre terminal, et clonez ce dépôt GitHub:<br>
+1. Ouvrez votre terminal, et clonez ce dépôt GitHub:<br>
 `git clone https://github.com/AudePertron/AI_days_emotions`
 
-Dézipper le fichier `emotions.zip` directement dans le dossier data. (sauf si vous utilisez Colab).
+2. Dézipper le fichier `emotions.zip` directement dans le dossier data. (sauf si vous utilisez Colab).
 
-Installez les requirements:<br>
+3. Installez les requirements:<br>
 `cd AI_days_emotions`<br>
 `pip install -r requirements.txt`
 
-Ouvrez le notebook:<br>
+4. Ouvrez le notebook:<br>
 `jupyter notebook` <br>
 
-Sélectionnez (Fichier / ouvrir):<br>
+5. Sélectionnez (Fichier / ouvrir):<br>
  `Tuto_Emotions_Part1`
 
-Suivez les instructions de la partie un.<br><br>
-A l'issue de celle-ci, vous pourrez de la même façon ouvrir le deuxième Notebook. <br>
+6. Suivez les instructions de la partie un.<br><br>
+7. A l'issue de celle-ci, vous pourrez de la même façon ouvrir le deuxième Notebook. <br>
 `jupyter notebook` <br>
-Sélectionnez (Fichier / ouvrir):<br>
+8. Sélectionnez (Fichier / ouvrir):<br>
 `Tuto_Emotions_Part2`
 
 Félicitations, vous venez d'entraîner votre premier modèle IA!
