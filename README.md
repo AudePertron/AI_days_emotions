@@ -64,7 +64,7 @@ Lancez l'invite de commande Anaconda (AnacondaPrompt) et entrez les commandes su
 ```
 
 La commande `conda create --name EnvAIDays`crée l'environnement de travail, `conda activate EnvAIDays` l'active pour que nous travaillons à l'intérieur. <br>
-`git clone https://github.com/AudePertron/AI_days_emotions` permet de copier l'intégralité de ce dépôt github dans votre dossier utilisateur. `cd AI_days_emotions` nous permet de nous placer dans ce dossier, depuis lequel nous pouvons installer les packages requis, d'après la liste "requirements.txt" que nous vous avons préparée, à l'aide de la commande `pip install -r requirements.txt`.
+`git clone https://github.com/AudePertron/AI_days_emotions` permet de copier l'intégralité de ce dépôt github dans votre dossier utilisateur. `cd AI_days_emotions` nous permet de nous placer dans ce dossier, depuis lequel nous pouvons installer les packages requis, d'après la liste "requirements.txt" que nous vous avons préparé, à l'aide de la commande `pip install -r requirements.txt`.
 
 ## Atelier AI Days !
 
