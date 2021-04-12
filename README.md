@@ -1,4 +1,4 @@
-# Atelier IA détection des émotions sur un flux Webcam.
+# Atelier IA : Détection des émotions sur un flux Webcam
 
 Dans cet atelier, nous allons réaliser un modèle d'Intelligence Artificielle afin de détecter les émotions de votre visage via l'image de la webcam.
 Nous détecterons les émotions suivantes:
