@@ -109,6 +109,8 @@ N'oubliez pas de supprimer également le dossier "AI_days_emotions" de votre ré
 
 Merci d'avoir suivi ce tutoriel!
 
+<p ALIGN="center"><img src="./emojis/3-happy.png"></p>
+
 Ludivine, Jéremy, Erwan, Baptiste LG et Aude
 
 
