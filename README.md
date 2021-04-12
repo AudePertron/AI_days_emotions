@@ -113,7 +113,7 @@ Merci d'avoir suivi ce tutoriel!
 
 <p ALIGN="center"><img src="./emojis/3-happy.png"></p>
 
-Ludivine, Jéremy, Erwan, Baptiste LG et Aude
+<p ALIGN="right">Ludivine, Jéremy, Erwan, Baptiste LG et Aude</p>
 
 
 
