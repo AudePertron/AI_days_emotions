@@ -15,8 +15,8 @@ L'entrainement d'un modèle d'IA peut se faire en autonomie (l'algorithe apprend
 La base de données contient 19211 images de 48x48 pixels en niveaux de gris.
 
 <br>
-![exemple photo](/images/demo.png)
-<br>
+![exemple photo](/images/demo.png)<br>
+
 
 L'entraînement d'un modèle prend du temps, même un modèle simple comme le nôtre. Pour gagner du temps lors de cette journée, nous vous proposerons d'utiliser le modèle que nous avons entraîné au préalable, tout en vous guidant à travers toutes les étapes du code dans ce Notebook. Vous serez en mesure de l'entraîner de A à Z après les IA days, si vous le désirez.<br>
 
