@@ -52,7 +52,7 @@ Commençons par créer un environnement virtuel Anaconda que vous pourrez suppri
 Lancez l'invite de commande Anaconda (AnacondaPrompt) et entrez les commandes suivantes :
 
 ```bash
-(base) C:\Users\utilisateur>conda create --name EnvAIDays
+(base) C:\Users\utilisateur>conda create --name EnvAIDays python=3.6
 
 (base) C:\Users\utilisateur>conda activate EnvAIDays
 
@@ -98,11 +98,14 @@ Dans tous les cas, Amusez-vous !
 Quand vous aurez terminé ce tutoriel, vous pouvez supprimer l'environnement créé pour libérer l'espace sur votre machine. 
 Toujours dans Anaconda Prompt, commencez par désactiver votre environnement `EnvAIDays` s'il est toujours actif, puis supprimez-le avec la commande `env remove` :
 
+```bash
 (EnvAIDays) C:\Users\utilisateur\AI_days_emotions>conda deactivate
 
 (base) C:\Users\utilisateur\AI_days_emotions>conda env remove --name EnvAIDays
+```
 
-N'oubliez pas de supprimer également le dossier "AI_days_emotions" de votre dossier utilisateur, et si vous ne pensez pas réutiliser Python, vous pouvez également désinstaller Anaconda.
+N'oubliez pas de supprimer également le dossier "AI_days_emotions" de votre répertoire "utilisateur", et si vous ne pensez pas réutiliser Python, vous pouvez également désinstaller Anaconda.
+
 
 Merci d'avoir suivi ce tutoriel!
 
