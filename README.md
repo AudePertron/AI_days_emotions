@@ -14,8 +14,7 @@ L'opération se réalisera en deux temps:
 L'entrainement d'un modèle d'IA peut se faire en autonomie (l'algorithe apprend seul), ou de manière supervisée. C'est dnas ce second cas que nous nous plaçons : nous devons donc "guider" l’algorithme sur la voie de l’apprentissage en lui fournissant des exemples qu’il estime probants après les avoir préalablement étiquetés des résultats attendus. A savoir, dans notre cas, des photos de visages avec le nom de lémotion qui leur est associée (par exemple : "photo1 : colère", "photo2 : tristesse", ...).<br>
 La base de données contient 19211 images de 48x48 pixels en niveaux de gris.
 
-<br>
-![gray](/images/demo.png)
+![gray](/images/demo.png)<br>
 <br>
 
 L'entraînement d'un modèle prend du temps, même un modèle simple comme le nôtre. Pour gagner du temps lors de cette journée, nous vous proposerons d'utiliser le modèle que nous avons entraîné au préalable, tout en vous guidant à travers toutes les étapes du code dans ce Notebook. Vous serez en mesure de l'entraîner de A à Z après les IA days, si vous le désirez.<br>
@@ -25,7 +24,10 @@ Il vous suffit de télécharger le contenu de ce dépôt GitHub, qui contient la
 A la fin du code, nous ouvrirons la webcam et vous pourrez essayer votre modèle.<br>
 ![test webcam](/images/test.png)<br>
 
+
 <hr>
+
+
 ## Prérequis
 
 L'ensemble du code sera développé en Python. <br>
