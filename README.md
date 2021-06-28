@@ -46,9 +46,9 @@ Il est nécessaire d'avoir quelques notions de Python ou bien une certaine conna
 ## Téléchargements et installations (à réaliser avant le jour de l'atelier)
 <br>
 
-Pour cet atelier, nous utliserons [Google Colab](https://colab.research.google.com). Pensez donc à relier votre compte google à colab ou à vous créer un compte avant de venir.
+Pour cet atelier, nous utiliserons [Google Colab](https://colab.research.google.com). Pensez donc à relier votre compte google à colab ou à vous créer un compte avant de venir.
 
-Google Colab est un notebook en ligne qui permet d'exécuter du code Python et qui est utilisé en partie pour avoir accès à un GPU afin d'avoir une meilleure vitesse d'apprentissage lorsque l'on travail sur ordinateur portable.
+Google Colab est un notebook en ligne qui permet d'exécuter du code Python et qui est utilisé en partie pour avoir accès à un GPU afin d'avoir une meilleure vitesse d'apprentissage que lorsque l'on travaille sur ordinateur portable.
 
 ## Si vous voulez tester par la suite la partie cas pratique et utilisation du modèle avec la webcam
 
