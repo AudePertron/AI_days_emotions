@@ -15,7 +15,7 @@ L'opération se réalisera en deux temps:
 - Premièrement il est nécessaire de détecter l'emplacement du visage sur l'image, pour cela nous utiliserons un modèle déjà existant (MTCNN).
 - Ensuite, il faut reconnaître et classifier l'émotion du visage détecté. Nous commencerons par réaliser ce modèle ensemble. Pour cela, nous utiliserons un Dataset existant (photos de visages exprimant les différentes émotions), que nous vous proposerons de télécharger avant de commencer le tutoriel.
 
-L'entrainement d'un modèle d'IA peut se faire en autonomie (l'algorithe apprend seul), ou de manière supervisée. C'est dans ce second cas que nous nous plaçons : nous devons donc "guider" l’algorithme sur la voie de l’apprentissage en lui fournissant des exemples qu’il estime probants après les avoir préalablement étiquetés des résultats attendus. A savoir, dans notre cas, des photos de visages avec le nom de l'émotion qui leur est associée (par exemple : "photo1 : colère", "photo2 : tristesse", ...).<br>
+L'entraînement d'un modèle d'IA peut se faire en autonomie (l'algorithe apprend seul), ou de manière supervisée. C'est dans ce second cas que nous nous plaçons : nous devons donc "guider" l’algorithme sur la voie de l’apprentissage en lui fournissant des exemples qu’il estime probants après les avoir préalablement étiquetés avec les résultats attendus. A savoir, dans notre cas, des photos de visages avec le nom de l'émotion qui leur est associée (par exemple : "photo1 : colère", "photo2 : tristesse", ...).<br>
 La base de données contient 19211 images de 48x48 pixels en niveaux de gris.
 
 <br>
@@ -23,9 +23,9 @@ La base de données contient 19211 images de 48x48 pixels en niveaux de gris.
 
 <br>
 
-L'entraînement d'un modèle prend du temps (environ 10-15 minutes), même un modèle simple comme le nôtre. Pour gagner du temps lors de cet atelier, nous vous proposerons de prendre un peu d'avance en lisant la suite et en posant vos questions. Par la suite, si vous le désirez, vous pourrez relancer le modèle en jouant avec les paramètres pour voir ce qu'il se passe. <br>
+L'entraînement d'un modèle prend du temps (environ 10-15 minutes), même pour un modèle simple comme le nôtre. N'hésitez pas à profiter du temps d'entraînement de votre modèle pour nous poser vos questions. Par la suite, si vous le désirez, vous pourrez relancer le modèle en jouant avec les paramètres pour voir ce qu'il se passe. <br>
 
-Si nous n'avons pas le temps de voir la suite où nous utilisons le modèle, nous vous mettons à disposition sur le github la partie 2, qui vous permettra de tester en temps réel via la webcam la reconnaissance de vos émotions. 
+Pour ceux qui souhaitent aller plus loin, en plus de l'entraînement et de l'évaluation du modèle, nous vous proposons un cas d'usage dans la partie 2, qui vous permettra de tester en temps réel via la webcam la reconnaissance de vos émotions. 
 
 Nb: si la reconnaissance est difficile, n'hésitez pas à appuyer voire surjouer vos émotions.
 
