@@ -1,6 +1,6 @@
 # Atelier IA : Détection des émotions sur un flux Webcam
 
-<p ALIGN="center"><img src="../images/frise.png"></p>
+<p ALIGN="center"><img src="./images/frise.png"></p>
 
 
 Dans cet atelier, nous allons réaliser un modèle d'Intelligence Artificielle afin de détecter les émotions de votre visage via l'image de la webcam.
@@ -19,7 +19,7 @@ L'entrainement d'un modèle d'IA peut se faire en autonomie (l'algorithe apprend
 La base de données contient 19211 images de 48x48 pixels en niveaux de gris.
 
 <br>
-<p ALIGN="center"><img src="../images/demo.png"></p>
+<p ALIGN="center"><img src="./images/demo.png"></p>
 
 <br>
 
@@ -30,7 +30,7 @@ Si nous n'avons pas le temps de voir la suite où nous utilisons le modèle, nou
 Nb: si la reconnaissance est difficile, n'hésitez pas à appuyer voire surjouer vos émotions.
 
 <br>
-<p ALIGN="center"><img src="../images/test.png"></p>
+<p ALIGN="center"><img src="./images/test.png"></p>
 <br>
 <hr>
 
@@ -97,11 +97,11 @@ Les commandes
 * Lancez le [notebook](https://colab.research.google.com/github/AudePertron/AI_days_emotions/blob/main/Tuto_Emotions_Part1.ipynb) sur colab
 * Mettez Colab en 'mode GPU'. Pour ce faire allez dans le menu Modifier -> Paramètres du notebook
 
-![gpu1](gpu1.PNG)
+![gpu1](images/gpu1.PNG)
 
 puis sélectionnez GPU
 
-![gpu2](gpu2.PNG)
+![gpu2](images/gpu2.PNG)
 
 A vous de jouer, vous pouvez exécuter les cellules et voir ce qu'il se passe
 
@@ -144,7 +144,7 @@ N'oubliez pas de supprimer également le dossier "AI_days_emotions" de votre ré
 
 Merci d'avoir suivi ce tutoriel!
 
-<p ALIGN="center"><img src="../emojis/3-happy.png"></p>
+<p ALIGN="center"><img src="./emojis/3-happy.png"></p>
 
 <p ALIGN="right">Ludivine, Jéremy, Erwan, Baptiste LG et Aude</p>
 
