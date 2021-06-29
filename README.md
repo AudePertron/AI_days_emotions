@@ -12,8 +12,8 @@ Nous détecterons les émotions suivantes:
 - surprise.
 
 L'opération se réalisera en deux temps:
-- Premièrement il est nécessaire de détecter l'emplacement du visage sur l'image, pour cela nous utiliserons un modèle déjà existant (MTCNN).
-- Ensuite, il faut reconnaître et classifier l'émotion du visage détecté. Nous commencerons par réaliser ce modèle ensemble. Pour cela, nous utiliserons un Dataset existant (photos de visages exprimant les différentes émotions), que nous vous proposerons de télécharger avant de commencer le tutoriel.
+- Premièrement, il faut reconnaître et classifier l'émotion du visage détecté. Nous commencerons par réaliser ce modèle ensemble. Pour cela, nous utiliserons un Dataset existant (photos de visages exprimant les différentes émotions), que nous vous proposerons de télécharger pendant le tutoriel.
+- Deuxièmement, récupérer un flux webcam, y trouver les visages et identifier l'émotion grâce au modèle entaîné en première partie.
 
 L'entraînement d'un modèle d'IA peut se faire en autonomie (l'algorithe apprend seul), ou de manière supervisée. C'est dans ce second cas que nous nous plaçons : nous devons donc "guider" l’algorithme sur la voie de l’apprentissage en lui fournissant des exemples qu’il estime probants après les avoir préalablement étiquetés avec les résultats attendus. A savoir, dans notre cas, des photos de visages avec le nom de l'émotion qui leur est associée (par exemple : "photo1 : colère", "photo2 : tristesse", ...).<br>
 La base de données contient 19211 images de 48x48 pixels en niveaux de gris.
